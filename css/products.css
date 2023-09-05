@@ -1,0 +1,97 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
+.card-link {
+  margin-top: auto;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.category-watches {
+  background-color: #ff0000
+}
+
+.category-iphones {
+  background-color: #01bfff
+}
+
+.category-ipads {
+  background-color: #ad0000
+}
+
+.category {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+}
+
+body {
+background: linear-gradient(180deg, #060068 0%, #5b001a 25%,#060068 50%, #5b001a 75%, #060068 100%);
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 50s linear infinite;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+
+.marquee-content .logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.discount-text {
+  font-weight: bold;
+  margin-left: 20px;
+  color: #000080;
+}
+
+.discount-text b {
+  color: rgb(207, 4, 4);
+}
+
+@keyframes marquee {
+  0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+    
+
+}
+

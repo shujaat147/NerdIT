@@ -1,0 +1,59 @@
+.receipt {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.receipt-header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.receipt-column {
+  flex: 1;
+}
+
+.receipt-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.receipt-discount {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.receipt-tax {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.receipt-total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.receipt-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-label {
+  margin: 0 5px;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
